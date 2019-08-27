@@ -1,7 +1,5 @@
 ![image](https://user-images.githubusercontent.com/46861972/63814058-ea1e2200-c92f-11e9-8c85-7a07daf51af4.png)
-
 ### Installing
-
 We offer binary images of the latest releases here: http://securuscoin.org
 
 If you would like to compile yourself, read on.
