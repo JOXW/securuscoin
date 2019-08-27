@@ -1,6 +1,14 @@
-![image](https://user-images.githubusercontent.com/46861972/63814058-ea1e2200-c92f-11e9-8c85-7a07daf51af4.png)
+![image](https://user-images.githubusercontent.com/34389545/35821974-62e0e25c-0a70-11e8-87dd-2cfffeb6ed47.png)
+
+#### Master Build Status
+[![Build Status](https://travis-ci.org/turtlecoin/turtlecoin.svg?branch=master)](https://travis-ci.org/turtlecoin/turtlecoin) [![Build status](https://ci.appveyor.com/api/projects/status/github/turtlecoin/turtlecoin?branch=master&svg=true)](https://ci.appveyor.com/project/RocksteadyTC/turtlecoin)
+
+#### Development Build Status
+[![Build Status](https://travis-ci.org/turtlecoin/turtlecoin.svg?branch=development)](https://travis-ci.org/turtlecoin/turtlecoin) [![Build status](https://ci.appveyor.com/api/projects/status/github/turtlecoin/turtlecoin?branch=development&svg=true)](https://ci.appveyor.com/project/RocksteadyTC/turtlecoin)
+
 ### Installing
-We offer binary images of the latest releases here: http://securuscoin.org
+
+We offer binary images of the latest releases here: http://latest.turtlecoin.lol
 
 If you would like to compile yourself, read on.
 
@@ -43,7 +51,7 @@ If you are using Clang, you will need Clang 6.0 or higher. You will also need li
 The binaries will be in the `src` folder when you are complete.
 
 - `cd src`
-- `./SecurusCoinD --version`
+- `./TurtleCoind --version`
 
 ##### Ubuntu, using Clang
 
@@ -86,8 +94,8 @@ Ensure you have the dependencies listed above.
 If you want to use clang, ensure you set the environment variables `CC` and `CXX`.
 See the ubuntu instructions for an example.
 
-- `git clone -b master --single-branch https://github.com/JOXW/securuscoin`
-- `cd securuscoin`
+- `git clone -b master --single-branch https://github.com/turtlecoin/turtlecoin`
+- `cd turtlecoin`
 - `mkdir build`
 - `cd build`
 - `cmake ..`
@@ -96,7 +104,7 @@ See the ubuntu instructions for an example.
 The binaries will be in the `src` folder when you are complete.
 
 - `cd src`
-- `./SecurusCoind --version`
+- `./TurtleCoind --version`
 
 #### OSX/Apple, using Clang
 
