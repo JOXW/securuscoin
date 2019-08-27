@@ -1,10 +1,8 @@
 ![image](https://user-images.githubusercontent.com/46861972/63814058-ea1e2200-c92f-11e9-8c85-7a07daf51af4.png)
 
-
-
 ### Installing
 
-We offer binary images of the latest releases here: http://latest.turtlecoin.lol
+We offer binary images of the latest releases here: http://securuscoin.org
 
 If you would like to compile yourself, read on.
 
@@ -47,7 +45,7 @@ If you are using Clang, you will need Clang 6.0 or higher. You will also need li
 The binaries will be in the `src` folder when you are complete.
 
 - `cd src`
-- `./TurtleCoind --version`
+- `./SecurusCoinD --version`
 
 ##### Ubuntu, using Clang
 
@@ -90,8 +88,8 @@ Ensure you have the dependencies listed above.
 If you want to use clang, ensure you set the environment variables `CC` and `CXX`.
 See the ubuntu instructions for an example.
 
-- `git clone -b master --single-branch https://github.com/turtlecoin/turtlecoin`
-- `cd turtlecoin`
+- `git clone -b master --single-branch https://github.com/JOXW/securuscoin`
+- `cd securuscoin`
 - `mkdir build`
 - `cd build`
 - `cmake ..`
@@ -100,7 +98,7 @@ See the ubuntu instructions for an example.
 The binaries will be in the `src` folder when you are complete.
 
 - `cd src`
-- `./TurtleCoind --version`
+- `./SecurusCoind --version`
 
 #### OSX/Apple, using Clang
 
