@@ -216,13 +216,13 @@ namespace CryptoNote
 
         /* Block heights we are going to have hard forks at */
         const uint64_t FORK_HEIGHTS[] = {
-            1,  // 0
-			500000,  // 1
-			750000,  // 2
-			1000000,  // 3
-			1250000,  // 4
-			1500000,  // 5
-			1750000, // 6  
+            300000,  // 0
+			400000,  // 1
+			500000,  // 2
+			600000,  // 3
+			700000,  // 4
+			800000,  // 5
+			900000, // 6  
         };
 
         /* MAKE SURE TO UPDATE THIS VALUE WITH EVERY MAJOR RELEASE BEFORE A FORK */
