@@ -26,7 +26,7 @@ namespace WalletConfig
     const std::string daemonName = "SecurusCoind";
 
     /* The name to call this wallet */
-    const std::string walletName = "securuswallet";
+    const std::string walletName = "wallet";
 
     /* The name of service/walletd, the programmatic rpc interface to a
        wallet */
