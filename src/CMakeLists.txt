@@ -183,8 +183,8 @@ add_dependencies(zedwallet version)
 
 # Finally build the binaries
 set_property(TARGET SecurusCoind PROPERTY OUTPUT_NAME "SecurusCoind")
-set_property(TARGET zedwallet PROPERTY OUTPUT_NAME "wallet")
-set_property(TARGET zedwallet++ PROPERTY OUTPUT_NAME "wallet-beta")
+set_property(TARGET zedwallet PROPERTY OUTPUT_NAME "securuswallet")
+set_property(TARGET zedwallet++ PROPERTY OUTPUT_NAME "securuswallet-beta")
 set_property(TARGET WalletService PROPERTY OUTPUT_NAME "securus-service")
 set_property(TARGET miner PROPERTY OUTPUT_NAME "miner")
 set_property(TARGET cryptotest PROPERTY OUTPUT_NAME "cryptotest")
