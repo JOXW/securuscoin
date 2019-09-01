@@ -198,7 +198,7 @@ namespace CryptoNote
 
         const uint32_t UPGRADE_HEIGHT_V5 = 5; // Upgrade height for CN-Turtle Variant 2 switch.
 
-        const uint32_t UPGRADE_HEIGHT_V6 = 300000; // Upgrade height for Chukwa switch.
+        const uint32_t UPGRADE_HEIGHT_V6 = 300000; // Upgrade height for Argon2 SCR switch.
 
         const uint32_t UPGRADE_HEIGHT_CURRENT = UPGRADE_HEIGHT_V6;
 
