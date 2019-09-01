@@ -999,6 +999,8 @@ namespace CryptoNote
             logger(INFO, WHITE) << " If you need more assistance, you can contact us for support at "
                                        + WalletConfig::contactLink
                                 << ENDL;
+								logger(INFO, WHITE) << "Scheduled pow update block 300000, mixing amounts 500000."
+                                << ENDL;
             logger(INFO, BRIGHT_MAGENTA) << "===================================================" << ENDL << ENDL;
 
             logger(INFO, BRIGHT_GREEN) << asciiArt << ENDL;
