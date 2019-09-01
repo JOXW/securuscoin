@@ -50,7 +50,7 @@
 #define CHUKWA_SALTLEN 16 // The length of our salt in bytes
 #define CHUKWA_THREADS 1 // How many threads to use at once
 #define CHUKWA_ITERS 3 // How many iterations we perform as part of our slow-hash
-#define CHUKWA_MEMORY 512 // This value is in KiB (0.5MB)
+#define CHUKWA_MEMORY 256 // This value is in KiB (0.5MB)
 
 namespace Crypto
 {
