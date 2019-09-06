@@ -1,4 +1,5 @@
 // Copyright (c) 2019, The TurtleCoin Developers
+// Copyright (c) 2019, Project Securus
 
 #pragma once
 
