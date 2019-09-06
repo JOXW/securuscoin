@@ -1,4 +1,5 @@
 // Copyright (c) 2012-2017, The CryptoNote developers, The Bytecoin developers 
+// Copyright (c) 2019, Project Securus
 //
 // This file is part of Bytecoin.
 //
