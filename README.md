@@ -1,4 +1,4 @@
-![image](https://github.com/JOXW/securus/blob/master/securus%20bg.jpg?raw=true)
+![image](https://github.com/JOXW/securuscoin/blob/master/securus%20bg.jpg?raw=true)
 
 ### Installing
 
