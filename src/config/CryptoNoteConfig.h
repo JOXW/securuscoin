@@ -56,6 +56,10 @@ namespace CryptoNote
         const uint64_t LWMA_2_DIFFICULTY_BLOCK_INDEX_V3 = 3;
 
         const unsigned EMISSION_SPEED_FACTOR = 21;
+		
+		const unsigned EMISSION_SPEED_FACTOR_V2 = 22;
+		
+		const unsigned EMISSION_SPEED_FACTOR_V2_MAJOR_BLOCK_VERSION = 6;
 
         static_assert(EMISSION_SPEED_FACTOR <= 8 * sizeof(uint64_t), "Bad EMISSION_SPEED_FACTOR");
 
@@ -332,8 +336,8 @@ namespace CryptoNote
         {0xb5, 0x0c, 0x4a, 0x8c, 0xc7, 0x53, 0x74, 0x45, 0x15, 0xf9, 0x91, 0xa4, 0xb4, 0xc4, 0x48, 0xe9}};
 
     const char *const SEED_NODES[] = {
-		"85.214.153.128:10114",//securuscoin.org
-		"81.169.244.95:10114", //securuscoin.org 2
-		"85.214.24.190:10114"//wika1
+		"85.214.153.128:14114",//securuscoin.org
+		"81.169.244.95:14114", //securuscoin.org 2
+		"85.214.24.190:14114"//wika1
     };
 } // namespace CryptoNote
